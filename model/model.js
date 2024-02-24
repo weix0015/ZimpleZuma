@@ -13,7 +13,7 @@ export function createBallElement(balltype) {
   const img = document.createElement("img");
   
   
-  img.src = `view/images/marble${balltype}.png`;
+  img.src = `../view/images/marble${balltype}.png`;
   img.dataset.balltype = ballId;
   ball.dataset.balltype = ballId;
   ball.appendChild(img);
